@@ -1,0 +1,21 @@
+{
+  "name": "WebAppDemo",
+  "version": "0.0.0",
+  "description": "The Web Application",
+  "author": "Adetunji Oduyela",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.0",
+    "body-parser": "^1.13.1",
+    "mongoose": "^4.0.6",
+    "express-session": "^1.7.6"
+  },
+  "devDependencies": {
+    "backbone": "^1.2.1",
+    "jquery": "latest",
+    "mustache": "latest",
+    "handlebars": "latest",
+    "requirejs": "latest"
+  },
+  "engine": "node >=0.6.x"
+}
