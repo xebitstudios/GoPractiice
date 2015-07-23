@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>jQuery Ajax tutorial</title>
+		<link rel="stylesheet" type="text/css" href="stylesheets/style.css" />
+	</head>
+	<body>
+		<h1>jQuery Ajax Tutorial</h1>
+
+		<h2>Coffee Orders</h2>
+		<ul id="orders"></ul>
+
+		<h4>Add a Coffee Order</h4>
+		<p>name: <input type="text" id="name" name="name"></p>
+		<p>drink: <input type="text" id="drink" name="drink"></p>
+		<button id="add-order">Add!</button>
+
+		<!-- The registration template -->
+		<script id="registerTemplae" type="text/template">
+			<h1>Register</h1>
+
+			<form>
+				<fieldset>
+					<legend>Your Name</legend>
+
+					<label>
+						First: <input type="text" name="firstName" />
+					</label>
+					<label>
+						Last: <input type="text" name="lastName" />
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Email Address</legend>
+
+					<label>
+						Email: <input type="text" name="email" />
+					</label>
+					<br />
+					<label>
+						Email (confirm): <input type="text" name="cemail" />
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Password</legend>
+
+					<label>
+						Password: <input type="password" name="password" />
+					</label>
+					<br />
+					<label>
+						Password (confirm): <input type="password" name="cpassword" />
+					</label>
+				</fieldset>
+
+				<p>
+					<input type="submit" value="Register Now"/>
+				</p>
+			</form>
+		</script>
+
+		<!-- The login template -->
+		<script id="loginTemplate" type="text/template">
+			<h1>Login</h1>
+
+			<form>
+				<fieldset>
+					<legend>Credentials</legend>
+
+					<p class="error" id="error"></p>
+
+					<label>
+						Email: <input type="text" name="email">
+					</label>
+					<br />
+
+					<label>
+						Password: <input type="password" name="password">
+					</label>
+					<br />
+
+					<input type="submit" value="Login Now">
+				</fieldset>
+			</form>
+			
+			<ul>
+				<li><a href="#forgotpassword">Forgot Password?</a></li>
+				<li><a href="#register">Sign Up</a></li>
+			</ul>
+		</script>
+
+		<!-- The login template -->
+		<script id="hello" type="text/template">
+		  
+		</script>
+
+		
+		<script src="/jQuery/dist/jquery.js"></script>
+		<script src="/backbone/backbone.js"></script>
+		<script src="/requirejs/require.js"></script>
+		<script src="/handlebars/dist/handlebars.js"></script>
+		<script src="js/main.js"></script>
+		<script src="/mustache/mustache.js"></script>
+	</body>
+	
+</html>
